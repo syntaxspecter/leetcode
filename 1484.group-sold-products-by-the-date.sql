@@ -15,5 +15,6 @@ from activities
 group by sell_date
 order by sell_date;
 
+
 -- @lc code=end
 
