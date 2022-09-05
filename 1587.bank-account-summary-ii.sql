@@ -14,3 +14,4 @@ having sum(amount) >= 10000;
 
 -- @lc code=end
 
+

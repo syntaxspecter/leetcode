@@ -11,5 +11,6 @@ SELECT date_id , make_name , COUNT(DISTINCT(lead_id)) AS unique_leads , COUNT(DI
 FROM DailySales
 GROUP BY date_id , make_name ;
 
+
 -- @lc code=end
 
