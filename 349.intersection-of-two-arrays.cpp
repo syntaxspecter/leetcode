@@ -22,7 +22,7 @@ public:
         }
 
        for (unsigned int i = 1 ; i < ans.size(); ++i) {
-      for (unsigned int k = 0 ; k < i; ++k) {
+        for (unsigned int k = 0 ; k < i; ++k) {
          if ( ans.at(i) == ans.at(k) ) {
             //remove element if already present
             ans.erase(ans.begin() + i);
